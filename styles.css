@@ -1,0 +1,73 @@
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.content{
+  background-color: rgb(21, 10, 54);
+  margin: 10% 5%;
+  text-align: center;
+}
+
+.image-header{
+  height: 40vh;
+  background: black;
+  background-image: -webkit-linear-gradient(rgba(138, 0, 99, 0.6), rgba(138, 0, 99, 0.6)), url(images/image-header-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text{
+  padding: 7%;
+  color: rgb(190,190,190);
+  font-size: .8rem;
+}
+
+.big-header{
+  padding-bottom: 5%;
+}
+
+.big-header, .small-header{
+  color: #fff;
+}
+
+.insights{
+  color: rgb(189, 38, 154);
+}
+
+.features{
+  margin: 10%;
+}
+
+@media (min-width: 1025px){
+
+  .content{
+    margin: 10%;
+    text-align: left;
+    position: relative;
+  }
+
+  .image-header{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+  }
+
+  .text{
+    width: 50%;
+  }
+
+  .features-section{
+    margin-top: 15%;
+  }
+  .features{
+    display: inline-block;
+    width: 15%;
+    margin: 7%;
+  }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
