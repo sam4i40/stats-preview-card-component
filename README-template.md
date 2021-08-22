@@ -37,7 +37,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [LINK](https://github.com/sam4i40/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [LINK](https://sam4i40.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -68,5 +68,4 @@ Markdown guide - [The Markdown Guide](https://www.markdownguide.org/).
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [sam4i40](https://www.frontendmentor.io/profile/sam4i40)
