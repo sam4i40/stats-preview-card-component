@@ -64,6 +64,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ```
 <img src="" class="img-fluid" alt="">
 ```
+2) background-size : cover -- makes the background image stretch/zoom to fill the background as necessary
+   background-repeat: no-repeat -- normally the image will appear 2/3/4... times to cover the whole background but with no-repeat, the image 
+   appears only once then the rest of the space gets filled with default/specified background color.
+
+3) If you change the position to absolute, then the width and height of that element is still the same as it would be if it was static.
+   If you use height: 50%, the height would be 50% of it's parent (as if position was static), and then due to absolute position it will re-        position itself. 
+
+4) Use background image + linear gradient to achieve a image background with a layover color.
+
+5) Be careful with linear gradient, as different browsers needs different css code for it to run (-webkit-, -moz- etc.).
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
